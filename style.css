@@ -1,0 +1,115 @@
+\*{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  margin:0;
+  height:100vh;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.box{
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  padding:30px;
+  border-radius:20px;
+  width:380px;
+  text-align:center;
+  box-shadow:0 0 30px rgba(0,0,0,0.4);
+}
+
+.title{
+  margin-bottom:20px;
+}
+
+.search form{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+}
+
+.searchInput{
+  flex:1;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  font-size:14px;
+}
+
+#search{
+  padding:12px 16px;
+  border:none;
+  border-radius:10px;
+  background:#00aaff;
+  color:white;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.city{
+  margin-top:20px;
+  font-size:26px;
+}
+
+.date{
+    color:white;
+    font-size:14px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+
+/* Weather main */
+.weatherdata{
+  text-align:center;
+  margin:10px 0 20px 0;
+}
+
+#weathericon{
+    width:80px;
+    height:80px;
+    display:block;
+    margin:10px auto;
+}
+
+
+.desc{
+  margin:5px 0;
+  font-size:18px;
+}
+
+.temp{
+  font-size:46px;
+  font-weight:bold;
+}
+
+/* Stats */
+.stats{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.statsbox{
+  background: rgba(255,255,255,0.15);
+  padding:15px;
+  border-radius:12px;
+  text-align:center;
+}
+
+.value{
+  display:block;
+  font-size:18px;
+  font-weight:bold;
+}
+
+.label{
+  font-size:13px;
+  color:#ddd;
+}
