@@ -82,7 +82,7 @@ if(isset($_GET["q"])){
 
 //Fetching API Data
 $cityname=urlencode($cityname);
-$response=file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=$cityname&appid=77e2adb7ffb4775c6a77266b393058f3");
+$response=file_get_contents("YOUR_WEBPAGE_LINK_WITH_API");
 $data=json_decode($response, true);
 
 // Return the API data as JSON
